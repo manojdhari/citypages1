@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Us - 247 Porta Potty Rental | America's Trusted Portable Toilet Company</title>
+    <meta name="description" content="Learn about 247 Porta Potty Rental - America's leading portable toilet rental company serving all 50 states since 2010. Call (833) 659-9080.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://247portapottyrental.com/about-us.html" />
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            color: white;
+            padding: 1rem 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #f39c12;
+        }
+
+        .phone-link {
+            background: #e74c3c;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .phone-link:hover {
+            background: #c0392b;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/placeholder.svg?height=400&width=1200') center/cover;
+            color: white;
+            text-align: center;
+            padding: 6rem 0;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Content Sections */
+        .content-section {
+            padding: 4rem 0;
+        }
+
+        .content-section:nth-child(even) {
+            background: #f8f9fa;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 3rem;
+            color: #2c3e50;
+        }
+
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .stat-item {
+            text-align: center;
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .stat-number {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #3498db;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 1.1rem;
+            color: #666;
+            margin-top: 0.5rem;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .team-member {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .team-photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: #3498db;
+            margin: 0 auto 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            color: white;
+        }
+
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .value-item {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .value-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .value-item h3 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+            color: white;
+            text-align: center;
+            padding: 4rem 0;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            background: white;
+            color: #e74c3c;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            transition: all 0.3s;
+            margin-top: 1rem;
+        }
+
+        .cta-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+        }
+
+        /* Footer */
+        .footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            color: #3498db;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .nav-links {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .two-column {
+                grid-template-columns: 1fr;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <strong>247 Porta Potty Rental</strong>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about-us.html?c=8336599080">About Us</a>
+                <a href="contact-us.html?c=8336599080">Contact</a>
+                <a href="privacy-policy.html?c=8336599080">Privacy Policy</a>
+                <a href="terms-of-service.html?c=8336599080">Terms</a>
+                <a href="tel:+18336599080" class="phone-link">📞 (833) 659‑9080</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <h1>About 247 Porta Potty Rental</h1>
+            <p>America's most trusted portable toilet rental company, serving all 50 states with reliable, clean, and affordable solutions since 2010.</p>
+        </div>
+    </section>
+
+    <!-- Our Story -->
+    <section class="content-section">
+        <div class="container">
+            <h2 class="section-title">Our Story</h2>
+            <div class="two-column">
+                <div>
+                    <h3>Founded on Reliability</h3>
+                    <p>247 Porta Potty Rental was founded in 2010 with a simple mission: to provide clean, reliable, and affordable portable toilet solutions across America. What started as a small local business has grown into the nation's leading portable sanitation company.</p>
+                    
+                    <p>Our founders recognized that construction sites, outdoor events, and emergency situations needed dependable restroom facilities that could be delivered quickly and maintained to the highest standards. This vision drove us to build a nationwide network of service centers and develop industry-leading cleaning protocols.</p>
+                    
+                    <p>Today, we're proud to serve thousands of customers annually, from small construction projects to major festivals and corporate events. Our commitment to excellence has made us the go-to choice for portable toilet rentals nationwide.</p>
+                </div>
+                <div>
+                    <img src="/placeholder.svg?height=400&width=500" alt="247 Porta Potty Rental Service" style="width: 100%; border-radius: 10px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Stats -->
+    <section class="content-section">
+        <div class="container">
+            <h2 class="section-title">By the Numbers</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number">50</span>
+                    <div class="stat-label">States Served</div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">15+</span>
+                    <div class="stat-label">Years in Business</div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">50K+</span>
+                    <div class="stat-label">Happy Customers</div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">24/7</span>
+                    <div class="stat-label">Customer Support</div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">2Hr</span>
+                    <div class="stat-label">Emergency Response</div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">99%</span>
+                    <div class="stat-label">Customer Satisfaction</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Values -->
+    <section class="content-section">
+        <div class="container">
+            <h2 class="section-title">Our Core Values</h2>
+            <div class="values-grid">
+                <div class="value-item">
+                    <div class="value-icon">🎯</div>
+                    <h3>Reliability</h3>
+                    <p>We deliver on time, every time. Our customers depend on us for critical sanitation needs, and we never let them down.</p>
+                </div>
+                <div class="value-item">
+                    <div class="value-icon">✨</div>
+                    <h3>Cleanliness</h3>
+                    <p>Every unit is thoroughly sanitized and inspected before delivery. We maintain the highest hygiene standards in the industry.</p>
+                </div>
+                <div class="value-item">
+                    <div class="value-icon">🤝</div>
+                    <h3>Customer Service</h3>
+                    <p>Our friendly, knowledgeable team is available 24/7 to help with rentals, maintenance, and emergency situations.</p>
+                </div>
+                <div class="value-item">
+                    <div class="value-icon">💰</div>
+                    <h3>Fair Pricing</h3>
+                    <p>We offer competitive rates with transparent pricing. No hidden fees, no surprises - just honest, affordable service.</p>
+                </div>
+                <div class="value-item">
+                    <div class="value-icon">🌍</div>
+                    <h3>Environmental Responsibility</h3>
+                    <p>We use eco-friendly cleaning products and waste disposal methods to minimize our environmental impact.</p>
+                </div>
+                <div class="value-item">
+                    <div class="value-icon">⚡</div>
+                    <h3>Innovation</h3>
+                    <p>We continuously invest in new technology and equipment to provide better service and more efficient operations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Team -->
+    <section class="content-section">
+        <div class="container">
+            <h2 class="section-title">Our Leadership Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="team-photo">👨‍💼</div>
+                    <h3>Michael Johnson</h3>
+                    <p><strong>Chief Executive Officer</strong></p>
+                    <p>With over 20 years in the sanitation industry, Michael leads our nationwide expansion and strategic initiatives.</p>
+                </div>
+                <div class="team-member">
+                    <div class="team-photo">👩‍💼</div>
+                    <h3>Sarah Williams</h3>
+                    <p><strong>Chief Operations Officer</strong></p>
+                    <p>Sarah oversees our daily operations across all 50 states, ensuring consistent quality and service delivery.</p>
+                </div>
+                <div class="team-member">
+                    <div class="team-photo">👨‍🔧</div>
+                    <h3>David Rodriguez</h3>
+                    <p><strong>Head of Fleet Management</strong></p>
+                    <p>David manages our nationwide fleet of delivery trucks and ensures all equipment meets our high standards.</p>
+                </div>
+                <div class="team-member">
+                    <div class="team-photo">👩‍💻</div>
+                    <h3>Jennifer Chen</h3>
+                    <p><strong>Customer Experience Director</strong></p>
+                    <p>Jennifer leads our customer service team and develops programs to enhance customer satisfaction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="content-section">
+        <div class="container">
+            <h2 class="section-title">Why Choose 247 Porta Potty Rental?</h2>
+            <div class="two-column">
+                <div>
+                    <h3>Industry Experience</h3>
+                    <p>With over 15 years in the portable sanitation industry, we understand the unique challenges of different job sites and events. Our experience allows us to provide tailored solutions for any situation.</p>
+                    
+                    <h3>Nationwide Network</h3>
+                    <p>Our extensive network of service centers across all 50 states ensures fast delivery and reliable service no matter where your project is located. We have local teams who understand regional needs and regulations.</p>
+                    
+                    <h3>Quality Equipment</h3>
+                    <p>We invest in high-quality, durable equipment that can withstand harsh conditions while maintaining comfort and cleanliness. Our units are regularly updated and maintained to industry standards.</p>
+                </div>
+                <div>
+                    <h3>24/7 Support</h3>
+                    <p>Emergencies don't wait for business hours. Our customer service team is available around the clock to handle urgent requests, maintenance issues, and emergency deliveries.</p>
+                    
+                    <h3>Flexible Solutions</h3>
+                    <p>From single-day events to long-term construction projects, we offer flexible rental terms and service schedules to meet your specific needs and budget requirements.</p>
+                    
+                    <h3>Proven Track Record</h3>
+                    <p>Thousands of satisfied customers trust us for their portable sanitation needs. Our reputation for reliability and quality service speaks for itself.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Experience the 247 Difference?</h2>
+            <p>Join thousands of satisfied customers who trust us for their portable toilet rental needs.</p>
+            <a class="cta-btn" href="tel:+18336599080">Call (833) 659‑9080 Today</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 247 Porta Potty Rental | <a href="tel:+18336599080">(833) 659‑9080</a> | Serving All 50 States</p>
+        </div>
+    </footer>
+</body>
+</html>
